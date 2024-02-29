@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-    base: '/my-class-schedule/',
+    base: '/pilates_tool/',
     plugins: [react(), VitePWA({
         registerType: 'autoUpdate', devOptions: {
             enabled: true
